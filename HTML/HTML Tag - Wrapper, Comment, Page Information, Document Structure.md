@@ -42,3 +42,9 @@ HTML안에 주석을 나타냄
 | `<span>`    | 인라인 요소를 나타냄(아무런 의미를 가지지 않음)         | - 한 부분의 텍스트나 한 부분의 문서에 사용                | Inline-Block |
 | `<br />`    | 한 줄 내리기                             | - 텍스트 사용시 문단을 내리고 싶을 때 사용                | None         |
 | `<hr />`    | 문단레벨에서 주제의 분리를 나타냄                  | - 화면 전환이나 섹션내에 다른 주제로 전환할때 사용<br />단락들사이에 의미적 구분이 있을 때 사용 | Block        |
+
+## 참고 :
+
+- https://www.w3schools.com
+- https://developer.mozilla.org
+- https://opentutorials.org
