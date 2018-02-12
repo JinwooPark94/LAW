@@ -25,7 +25,7 @@
 
   > ES3에서 ES5사이에서 ES4가 받아들이지 않으면서 ES4에 있던 기능들이 ES6에 다 적용됨   
 
-![ecmascript의 역사](/img/til/ecmascript-history.png)
+![ecmascript의 역사](/img/ecmascript-history.png)
 
 ## HTML 속의 Javascript
 
