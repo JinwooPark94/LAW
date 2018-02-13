@@ -22,19 +22,19 @@ var b = a; // 3번
    var a = 1;
    ```
 
-   ![immutable value](/img/immutable.png)
+   ![immutable value](./img/immutable.png)
 
 2. ```javascript
    a = 3;
    ```
 
-   ![immutable value](/img/immutable1.png)
+   ![immutable value](./img/immutable1.png)
 
 3. ```javascript
    var b = a;
    ```
 
-   ![immutable value](/img/immutable2.png)
+   ![immutable value](./img/immutable2.png)
 
 ### 1-1. Boolean
 
@@ -164,19 +164,19 @@ var b = a; // 3번
    var a = 1;
    ```
 
-   ![mutable value](/img/mutable.png)
+   ![mutable value](./img/mutable.png)
 
 2. ```javascript
    a = 3;
    ```
 
-   ![mutable value](/img/mutable1.png)
+   ![mutable value](./img/mutable1.png)
 
 3. ```javascript
    var b = a;
    ```
 
-   ![mutable value](/img/mutable2.png)
+   ![mutable value](./img/mutable2.png)
 
 ### 2-1. object
 
@@ -201,4 +201,3 @@ var foo = function doSomething(){};
 | :--------------------: | :------------------------: |
 |      데이터를 변경 불가능       |         데이터 변경 가능          |
 | 값으로 전달 (Pass by Value) | 참조로 전달 (Pass by reference) |
-
