@@ -18,23 +18,29 @@ a = 3;     // 2번
 var b = a; // 3번
 ```
 
-1. ```javascript
-   var a = 1;
-   ```
+####  1번
 
-   ![immutable value](./img/immutable.png)
+```javascript
+var a = 1;
+```
 
-2. ```javascript
-   a = 3;
-   ```
+####  ![immutable value](./img/immutable.png)
 
-   ![immutable value](./img/immutable1.png)
+#### 2번
 
-3. ```javascript
-   var b = a;
-   ```
+```javascript
+a = 3;
+```
 
-   ![immutable value](./img/immutable2.png)
+![immutable value](./img/immutable1.png)
+
+#### 3번
+
+```javascript
+var b = a;
+```
+
+![immutable value](./img/immutable2.png)
 
 ### 1-1. Boolean
 
@@ -160,23 +166,29 @@ a = 3;     // 2번
 var b = a; // 3번
 ```
 
-1. ```javascript
-   var a = 1;
-   ```
+#### 1번
 
-   ![mutable value](./img/mutable.png)
+```javascript
+var a = 1;
+```
 
-2. ```javascript
-   a = 3;
-   ```
+![mutable value](./img/mutable.png)
 
-   ![mutable value](./img/mutable1.png)
+#### 2번
 
-3. ```javascript
-   var b = a;
-   ```
+```javascript
+a = 3;
+```
 
-   ![mutable value](./img/mutable2.png)
+![mutable value](./img/mutable1.png)
+
+#### 3번
+
+```javascript
+var b = a;
+```
+
+![mutable value](./img/mutable2.png)
 
 ### 2-1. object
 
