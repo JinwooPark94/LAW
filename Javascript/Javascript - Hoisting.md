@@ -16,10 +16,6 @@ Javascript 실행시 실행 컨텍스트(Execution Context)가 생성되며 Runt
 
 #### **`Hoisting`은 총 세 가지 단계를 거쳐서 실행됨**
 
-1. 선언 단계 
-2. 초기화 단계
-3. 할당 단계
-
 ### 1. 선언 단계
 
 모든(변수, 함수)선언문을 찾으면 변수 객체(Variable Object)에 변수를 등록하며 스코프가 참조하는 대상이됨
@@ -48,9 +44,7 @@ var score = 1;
 console.log(score); // 1
 ```
 
-위의 코드를 보면 score는 선언되지도 않았는데 `undefined`라는 값이 들어가 있는데 이 현상은 변수 호이스팅으로 인한 현상
-
-
+위의 코드를 보면 score는 선언되지도 않았는데 `undefined`라는 값이 들어가 있는데 이러한 현상은 변수 호이스팅 때문
 
 ## 함수 호이스팅(Function Hoisting)
 
@@ -66,4 +60,4 @@ function printHello() {
 }
  ```
 
-위의 코드를 보면 `console.log(printHello());`는 선언 이전에 Hello 라는 결과 값을 출력하는데 이러한 현상은 함수 호이스팅으로 인한 현상
+위의 코드를 보면 `console.log(printHello());`는 선언 이전에 Hello 라는 결과 값을 출력하는데 이러한 현상은 함수 호이스팅 때문
