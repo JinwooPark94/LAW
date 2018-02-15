@@ -44,7 +44,7 @@ console.log(typeof(score)); // type; object
 모든 선언문은 호이스팅으로 인해 변수를 선언 이전에도 참조 가능하며 값은 `undefined`로 출력
 
 ```javascript
-console.log(scroe); // undefined
+console.log(score); // undefined
 
 var score = 1;
 
