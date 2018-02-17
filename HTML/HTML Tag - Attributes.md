@@ -65,6 +65,8 @@
 | Safari            | [ALT] *+입니다 accesskey*                   | N / A                       | [제어] [ALT] *+입니다 accesskey*   |
 | Opera             | Opera 15 이상 : [ALT] *+입니다 accesskey* **Opera 12.1 이상 : [SHIFT] [Esc] 키 *+입니다 accesskey* |                             |                               |
 
+참고 : https://www.w3schools.com/tags/att_global_accesskey.asp
+
 ### 2. tabindex
 
 #### 2-1. tabindex="1"
